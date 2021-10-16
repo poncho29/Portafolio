@@ -1,13 +1,13 @@
 /* ****** Custom Propierties ****** */
 :root {
   --first-color: #222;
-  --second-color: #24696B;
+  --second-color: #24696b;
   --second-color-light: rgba(36, 105, 107, 0.75);
-  --white-color: #FFF;
+  --white-color: #fff;
   --black-color: #000;
-  --black-alpha-color: rgba(0,0,0,0.5);
+  --black-alpha-color: rgba(0, 0, 0, 0.5);
   --max-width: 1200px;
-  --font: 'Lato', sans-serif;
+  --font: "Lato", sans-serif;
 }
 
 /* ****** Reset ****** */
@@ -91,7 +91,7 @@ p {
 }
 
 .menu-btn svg {
-  fill: var(--white-color)
+  fill: var(--white-color);
 }
 
 .menu {
@@ -126,7 +126,7 @@ p {
   background-color: var(--second-color);
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .menu-btn {
     display: none;
   }
@@ -142,7 +142,7 @@ p {
   .menu a {
     padding: 0.5rem;
   }
-  
+
   .menu a:last-child {
     padding-right: none;
   }
@@ -207,7 +207,7 @@ p {
 }
 
 .box-shadow-1 {
-  box-shadow: .25rem .25rem 1rem rgba(0,0,0,0.25);
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 /* ****** Side Styles ******* */
@@ -228,7 +228,7 @@ p {
 }
 
 .logo a {
-  color: #FFF;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -254,7 +254,7 @@ p {
   font-size: 1.5rem;
 }
 
-.portfolio-comment p span{
+.portfolio-comment p span {
   font-weight: bold;
 }
 
@@ -330,11 +330,11 @@ p {
   margin: 1rem auto;
   border: none;
   cursor: pointer;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .contact-form input[type="submit"]:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .contact-form-response {
@@ -361,7 +361,7 @@ p {
   width: 100%;
   height: 4rem;
   padding: 1.2rem 1rem;
-  background-color: #24696B;
+  background-color: #24696b;
 }
 
 .footer > .container {
@@ -370,12 +370,12 @@ p {
   align-items: center;
 }
 
-.footer > .container  p {
+.footer > .container p {
   font-weight: bold;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .header {
     padding: 0.8rem 1rem;
   }
@@ -389,7 +389,8 @@ p {
 
   .portfolio-project {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-between;
   }
 
   .buttons {
@@ -403,21 +404,21 @@ p {
   }
 
   .footer .logo {
-    display:inline-block;
+    display: inline-block;
   }
-  
+
   .footer .logo a {
-    color: var(--black-color)
+    color: var(--black-color);
   }
 
   .footer .social-media {
     display: inline-block;
   }
 
-  .footer .social-media a:last-child{
+  .footer .social-media a:last-child {
     padding-right: 0px;
   }
-} 
+}
 
 @media screen and (min-width: 1024px) {
   .description-about {
